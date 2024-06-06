@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  block-size: 100%;
+}
+
+.page {
+  margin: auto;
+  color: #2A2626;
+  font-family: "OpenSans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.6em;
+  background-color: #fff;
+  inline-size: 1440px;
+  block-size: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+blockquote,
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+h1, h2, h3 {
+  font-family: "Neucha", sans-serif;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 34px;
+}
+
+.section {
+  max-inline-size: 1110px;
+  padding-block-end: 100px;
+  padding-block-start: 100px;
+}
+
+/* 
+Полупрозрачный белый: #d7ccc0
+Светлый: #f5f4f0
+Основной: #fe8a02
+Основной тёмный: #42413c
+Тёмный: #2a2626
+Полупрозрачный тёмный: #908d8b
+Коричневый: #b09a81
+Синий: #1085c5 */
